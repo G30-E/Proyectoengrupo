@@ -12,7 +12,7 @@ void crearSecuenciaTribonacci(int totalElementos) {
         valor1 = valor2;
         valor2 = valor3;
         valor3 = proximoValor;
-    }
+    } //geofrey ando probando
 
     cout << endl;
 }
@@ -20,7 +20,7 @@ void crearSecuenciaTribonacci(int totalElementos) {
 int main() {
     int cantidadElementos;
 
-    cout << "Ingrese el número total de elementos para la secuencia Tribonacci: ";
+    cout << "Ingrese el nÃºmero total de elementos para la secuencia Tribonacci: ";
     cin >> cantidadElementos;
 
     if (cantidadElementos < 3) {
